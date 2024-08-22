@@ -1,0 +1,26 @@
+[
+    {
+        "timestamp": "2024-08-16 21:56:09",
+        "ip": "::1",
+        "userAgent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/127.0.0.0 Safari\/537.36",
+        "username": "admin",
+        "activity": "Visited page",
+        "uri": "\/site\/about.php"
+    },
+    {
+        "timestamp": "2024-08-16 21:56:19",
+        "ip": "::1",
+        "userAgent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/127.0.0.0 Safari\/537.36",
+        "username": "admin",
+        "activity": "Visited page",
+        "uri": "\/site\/about.php"
+    },
+    {
+        "timestamp": "2024-08-16 21:56:23",
+        "ip": "::1",
+        "userAgent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/127.0.0.0 Safari\/537.36",
+        "username": "admin",
+        "activity": "Visited page",
+        "uri": "\/site\/about.php"
+    }
+]

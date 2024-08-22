@@ -1,0 +1,232 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #f9f9f9;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Cart icon in navbar */
+.nav-links a .fas {
+    color: white;
+}
+
+.hero-section {
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section .btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.collection {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.collection h2 {
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.watch-card {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+    text-decoration: none; /* Remove underline from the entire card */
+}
+
+.watch-card:hover {
+    transform: scale(1.05);
+}
+
+.watch-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.watch-card h3 {
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.watch-card p {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.watch-card .btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.watch-card a {
+    text-decoration: none; /* Remove underline from links within the card */
+    color: inherit; /* Inherit text color from parent */
+}
+
+
+footer {
+    background-color: #222;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.about-section,
+.contact-section,
+.product-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-section h1,
+.contact-section h1,
+.product-section h1 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin-top: 10px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-section input[type="submit"] {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact-section input[type="submit"]:hover {
+    background-color: #ff4500;
+}
+
+.product-section img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.product-section h1 {
+    margin: 20px 0 10px;
+}
+
+.product-section p {
+    color: #333;
+}
+
+.product-section .btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+    a {
+        width: 100%;
+        padding: 15px 20px;
+    }
+}
+@media (max-width: 480px) {
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+    a {
+        width: 100%;
+        padding: 12px 15px;
+    }
+}
+

@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2024-08-17 06:33:40",
+        "ip": "::1",
+        "userAgent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/127.0.0.0 Safari\/537.36",
+        "username": "Guest",
+        "activity": "Visited page",
+        "uri": "\/site\/"
+    },
+    {
+        "timestamp": "2024-08-17 06:38:02",
+        "ip": "::1",
+        "userAgent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/127.0.0.0 Safari\/537.36",
+        "username": "Guest",
+        "activity": "Visited page",
+        "uri": "\/site\/"
+    }
+]
